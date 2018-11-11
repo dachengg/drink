@@ -44,7 +44,7 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
     @IBOutlet weak var sendbtn: UIButton!
     @IBOutlet weak var checkbtn: UIButton!
     
-   
+   let message = "Hello Git!"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,7 +61,7 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
         
         pricefL.isUserInteractionEnabled = false
   
-        
+        print(message)
 
     }
     
